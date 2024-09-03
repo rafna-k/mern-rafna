@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('https://png.pngtree.com/background/20230528/original/pngtree-table-with-many-indian-foods-picture-image_2778309.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.food h4{
+    display: flex;
+    align-items: center;
+}
+.logo-div{
+    width: 30%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.logo-div img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.naav{
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid black; */
+    margin-bottom: 12px;
+    padding: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.naav_items{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.naav_items a{
+
+    text-decoration: none;
+    color: white;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    
+}
+.card{
+    width: 270px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(red, green, blue);
+    border: 3px solid white;
+    margin: 12px;
+    padding: 1rem;
+
+}
+.card img{
+    width: 150px;
+    height: 150px;
+}
+.card h4{
+    font-weight: bold;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.second_row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    
+}
+.footer{
+    border-top: 1px solid white;
+    margin-top: 12px;
+    padding: 1rem;
+}
+.third_row{
+    display: flex;
+    justify-content:center;
+    margin-top: 1rem;
+
+}
+.third_row img{
+    width: 40px;
+    height: 40px;
+    margin-inline: 10px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: lightgreen;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin: 16px;
+    }
+    .second_row{
+        display: flex;
+        flex-direction: column;
+        margin: 16px;
+    }
+    .naav_items{
+        display: flex;
+        flex-direction: row;
+    }
+    .card img{
+        width: 270px;
+        height: 240px;
+    }
+
+  }

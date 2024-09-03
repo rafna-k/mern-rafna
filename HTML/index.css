@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: space-between;
+}
+#one{
+    background-color: red;
+    height: 200px;
+    width: 300px;
+}
+#two{
+    background-color: black;
+    height: 200px;
+    width: 300px;
+}
+#three{
+    background-color: blue;
+    height: 200px;
+    width: 300px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      /* background-color: rgb(25, 168, 56); */
+      display: flex;
+      flex-direction: column;
+    }
+    #one{
+        width: 360px;
+        height: 200px;
+    }
+    #two{
+        width: 360px;
+        height: 200px;
+    }
+    #three{
+        width: 360px;
+        height: 200px;
+    }
+  }

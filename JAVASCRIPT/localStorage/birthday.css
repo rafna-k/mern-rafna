@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0),rgba(0,0,0,0)),url(https://img.freepik.com/premium-photo/birthday-party-background-yellow_1220-3631.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+button{
+    width: 100px;
+    background-color: rgb(31, 29, 29);
+    color: white;
+}
+.btn{
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 40px;
+
+}
+input{
+    background-color: transparent;
+    width: 300px;
+}
+#text{
+    color: red;
+}

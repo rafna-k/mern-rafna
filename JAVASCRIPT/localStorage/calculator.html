@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8TK7Fs3JJec6DTsJCwMS5EyTJ_PVM8QwV5A&s">
+    <script src="calculator.js"></script>
+</head>
+<body>
+  <div class="main-div">
+    <div class="first-row">
+        <input type="text" id="i" readonly="">
+    </div>
+    <div id="second-row">
+        <button onclick="keys(7)">7</button>
+        <button onclick="keys(8)">8</button>
+        <button onclick="keys(9)">9</button>
+        <button onclick="keys('+')" id="sign">+</button>
+    </div>
+    <div id="third-row">
+        <button   onclick="keys(4)">4</button>
+        <button   onclick="keys(5)">5</button>
+        <button   onclick="keys(6)">6</button>
+        <button   onclick="keys('-')" id="sign">-</button>
+    </div>
+    <div id="forth-row">
+        <button   onclick="keys(1)">1</button>
+        <button   onclick="keys(2)">2</button>
+        <button   onclick="keys(3)">3</button>
+        <button   onclick="keys('*')" id="sign">*</button>
+    </div>
+    <div id="fifth-row">
+        <button   onclick="clos()">AC</button>
+        <button   onclick="keys(0)">0</button>
+        <button   onclick="dlt()">DEL</button>
+        <button   onclick="keys('/')" id="sign">/</button>
+    </div>
+    <div id="sixth-row">
+        <button   onclick="keys('00')" id="sign">00</button>
+      <button   onclick="eql('=')" id="btn-">=</button>
+    </div>
+   
+  </div>  
+</body>
+</html>

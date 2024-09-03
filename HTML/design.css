@@ -1,0 +1,50 @@
+.service{
+    background-color: black;
+    color: rgb(187, 187, 19);
+display: flex;
+justify-content: center;
+}
+.web{
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    color: rgb(187, 187, 19);
+}
+.design{
+    display: flex;
+    justify-content: right;
+    background-color: black;
+    color: rgb(187, 187, 19);
+    margin-left: 30px;
+}
+.create{
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    color: rgb(187, 187, 19);
+    margin-left: 30px;
+}
+.video{
+    display: flex;
+    justify-content: right;
+    background-color: black;
+    color: rgb(187, 187, 19);
+    margin-left: 30px;
+}
+.photo{
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    color: rgb(187, 187, 19);
+    margin-left: 30px;
+}
+.app{
+    display: flex;
+    justify-content: right;
+    background-color: black;
+    color: rgb(187, 187, 19);
+    margin-left: 30px;
+}
+body{
+    background-color: black;
+}

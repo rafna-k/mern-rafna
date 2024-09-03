@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,135,154,1) 0%, rgba(158,0,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.first-div{
+    background-color: white;
+    margin-top: 80px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+input{
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   width: 360px;
+   margin-bottom: 25px;
+}
+select{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 25px;
+}
+select{
+    margin-left: 20px;
+    display: flex;
+    justify-content: left;
+    width: 360px;
+}
+textarea{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: left;
+    width: 360px;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+  
+
+}
+button{
+    border-radius: 10px;
+    margin-left: 15px;
+    height: 30px;
+    width: 350px;
+    border: none;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,135,154,1) 0%, rgba(158,0,255,1) 100%);
+}
+button:hover{
+    cursor:pointer;
+}
+input:focus {
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}

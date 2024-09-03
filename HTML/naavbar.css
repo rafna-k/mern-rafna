@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    align-items: center;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+  body {
+  }
+  /* .logo{
+    width: 200px;
+} */
+img{
+    width: 30px;
+    height: 30px;
+}
+h1{
+    font-size: 16px;
+}
+}

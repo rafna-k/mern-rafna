@@ -1,0 +1,16 @@
+body{
+    background-color: lightblue;
+}
+.image{
+    background-color: black;
+    width: 1300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.basic{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}

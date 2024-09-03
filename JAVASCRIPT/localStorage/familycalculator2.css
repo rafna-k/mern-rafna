@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://static.tnn.in/thumb/msid-110971560,thumbsize-1517460,width-1280,height-720,resizemode-75/110971560.jpg?quality=100);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: transparent;
+    color: white;
+}
+.btn{
+    margin-left: 1000px;
+    font-size: x-large;
+    border-radius: 10px;
+    border-color: rgb(10, 100, 156);
+    color: rgb(10, 100, 156);
+}
+#head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px;
+    color: white;
+}
+.calculate{
+    display: flex;
+    flex-direction: row;
+}
+.btn1{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+}
+.btn2{
+    /* margin: 50px; */
+    border-radius: 5px;
+    height: 45px;
+    width: 250px;
+    margin-top: 25px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+.newdiv{
+    background-color: rgba(129, 153, 150, 0.589);
+}
+.expp{
+    margin-left: 180px;
+}

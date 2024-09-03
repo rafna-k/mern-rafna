@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+.naav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.naav a{
+    text-decoration: none;
+    color: white;
+}
+.image img{
+    width: 400px;
+    height: 450px;
+    margin-top: 10px;
+    margin-top: 20px;
+}
+.about_parent{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about h1{
+    color: blue;
+
+}
+.about{
+    color: white;
+}
+.about button{
+    background-color: blue;
+}
+.about button:hover{
+    background-color: red;
+}
+.about-head{
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+.about_paragraph{
+    color: white;
+}
+.certificate h3{
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+.cert_parent{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 3px solid blue;
+    margin: 0px;
+}
+.footer h5{
+color: blue;
+}
+.footer p{
+    color: white;
+}
+.cert_parent img{
+    width: 80px;
+    height: 80px;
+}
+.cert_parent img:hover{
+    width: 90px;
+    height: 90px;
+    transition: 0.3s;
+}

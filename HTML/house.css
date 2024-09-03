@@ -1,0 +1,50 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://www.decorilla.com/online-decorating/wp-content/uploads/2023/06/Bedroom-interior-design-ideas-for-relaxation.jpg);
+}
+.naav{
+display: flex;
+justify-content: space-evenly;
+}
+.bed{
+    border-bottom: 1px solid  #2ec797;
+    padding-bottom: 8px;
+}
+.house{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 150px;
+color: white;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    text-align: center;
+}
+.button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+.btn-first{
+background-color: #2ec797;
+color: white;  
+border-radius: 20px;
+padding: 10px;
+padding-inline: 30px;
+}
+.btn-second{
+color: white;  
+border-radius: 20px;
+padding: 10px;
+padding-inline: 30px;
+border-color:#2dc494;
+background-color:transparent;
+}
